@@ -9,8 +9,7 @@ public class Main {
            
             for (int j = i; j < n; j++) {
                 System.out.print(" ");
-            }
-            
+            }  
             for (int j = 1; j <= (2 * i - 1); j++) {
                 if (j == 1 || j == (2 * i - 1)) {
                     System.out.print("*");
