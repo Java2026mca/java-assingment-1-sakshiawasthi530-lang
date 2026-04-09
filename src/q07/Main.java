@@ -18,6 +18,7 @@ public class Main {
                     swaps++;
                     swapped = true;
                 }
+                
             }
             if (!swapped) break;
         }
