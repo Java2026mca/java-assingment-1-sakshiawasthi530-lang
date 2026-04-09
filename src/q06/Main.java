@@ -14,7 +14,6 @@ public class Main {
             if (i < n - 1) {
                 System.out.print(" ");
             }
-
             int next = a + b;
             a = b;
             b = next;
