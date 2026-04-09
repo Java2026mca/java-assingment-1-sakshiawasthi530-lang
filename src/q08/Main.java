@@ -31,7 +31,8 @@ public class Main {
                     System.out.println(stack[top]);
                 }
 
-            } else if (op.equals("SIZE")) {
+            }
+            else if (op.equals("SIZE")) {
                 System.out.println(top + 1);
             }
         }
