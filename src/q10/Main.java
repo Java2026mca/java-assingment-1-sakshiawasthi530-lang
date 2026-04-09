@@ -15,7 +15,6 @@ public class Main {
             if (Character.isDigit(token.charAt(0))) {
                 stack.push(Integer.parseInt(token));
             } 
-            
             else {
                 int b = stack.pop();
                 int a = stack.pop();
@@ -41,7 +40,6 @@ public class Main {
             }
         }
 
-        
         System.out.println(stack.pop());
     }
 }
